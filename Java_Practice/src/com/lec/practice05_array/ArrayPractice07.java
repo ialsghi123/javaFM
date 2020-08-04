@@ -60,8 +60,13 @@ public class ArrayPractice07 {
 			money=money%coinUnit[i];
 			System.out.println(coinUnit[i]+"원:"+coinNum);
 			
-			coin[i]=coin[i]-coinNum;
 			
+			if(coin[i]>coinNum) {
+				
+				coin[i]=coin[i]-coinNum;
+			} else {
+				
+			}
 			
 			
 			
