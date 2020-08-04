@@ -14,10 +14,13 @@ public class ReferenceParamEx3 {
 
 	static void printArr(int[] arr) { // 배열의 모든 요소를 출력
 		System.out.print("[");
+		
 
 		for (int i : arr) // 향상된 for문
 			System.out.print(i + ",");
 		System.out.println("]");
+		
+
 	}
 
 	static int sumArr(int[] arr) { // 배열의 모든 요소의 합을 반환
