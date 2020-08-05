@@ -10,7 +10,7 @@ public class ReferenceReturnEx {
 
 		Data d = new Data();
 		d.x = 10;
-
+		System.out.println(d);
 		Data d2 = copy(d);
 		System.out.println("d.x =" + d.x);
 		System.out.println("d2.x=" + d2.x);
@@ -19,7 +19,7 @@ public class ReferenceReturnEx {
 	static Data copy(Data d) {
 		Data tmp = new Data();
 		tmp.x = d.x;
-
+		System.out.println(tmp);
 		return tmp;
 	}
 

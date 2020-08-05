@@ -16,34 +16,7 @@ class Tv {
 
 */
 
-class car {
-	//car 속성
-	String color;
-	int speed;
-	int oil;
-	boolean bureongbureong; //시동
-	
 
-	//car 기능
-	void color() {
-		String blue;
-	}
-	
-	void speedUp() {
-		speed++;
-	}
-	
-	void speedDown() {
-		speed--;
-	}
-	
-	void buOn() {
-		bureongbureong=!bureongbureong;
-	}
-	
-	
-	
-}
 
 
 class TvTest {
@@ -59,10 +32,7 @@ class TvTest {
 		
 		System.out.println();
 		
-		car c = new car();
-		c.speed = 50;
-		c.speedUp();
-		System.out.println(c.speed);
+
 		
 		
 
