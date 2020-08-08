@@ -7,3 +7,4 @@ public class TrueFalse {
 	//false: 2 6 7 19 20 22 23 24(삼항 연산자) 
 	
 }
+ 
