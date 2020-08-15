@@ -1,8 +1,9 @@
-package com.minho.method02;
+package com.minho.method02_05.polymorphism;
 
 class InstanceofTest {
 	public static void main(String args[]) {
 		FireEngine fe = new FireEngine();
+		
 
 		if(fe instanceof FireEngine) {
 			System.out.println("This is a FireEngine instance.");

@@ -1,4 +1,5 @@
-package com.minho.method02;
+package com.minho.method02_05.polymorphism;
+
 
 //class Product {
 //	int price;			// 제품의 가격
@@ -31,6 +32,8 @@ package com.minho.method02;
 //	}
 //}
 //
+//
+//
 //class Buyer {			// 고객, 물건을 사는 사람
 //	int money = 1000;	// 소유금액
 //	int bonusPoint = 0;	// 보너스점수
@@ -49,13 +52,13 @@ package com.minho.method02;
 
 class PolyArgumentTest {
 	public static void main(String args[]) {
-		Buyer b = new Buyer();
-
-		b.buy(new Tv());
-		b.buy(new Computer());
-
-		System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");
-		System.out.println("현재 보너스점수는 " + b.bonusPoint + "점입니다.");
+//		Buyer b = new Buyer();
+//
+//		b.buy(new Tv());
+//		b.buy(new Computer());
+//
+//		System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");
+//		System.out.println("현재 보너스점수는 " + b.bonusPoint + "점입니다.");
 	}
 }
 

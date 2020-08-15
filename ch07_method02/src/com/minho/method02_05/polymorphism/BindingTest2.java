@@ -1,10 +1,10 @@
-package com.minho.method02;
+package com.minho.method02_05.polymorphism;
 
-class BindingTest{
+class BindingTest2 {
 	public static void main(String[] args) {
 		Parent p = new Child();
 		Child c = new Child();
- 
+
 		System.out.println("p.x = " + p.x);
 		p.method();
 
@@ -14,17 +14,11 @@ class BindingTest{
 }
 
 //class Parent {
-//	int x = 100; 
+//	int x = 100;
 //
 //	void method() {
 //		System.out.println("Parent Method");
 //	}
 //}
 //
-//class Child extends Parent {
-//	int x = 200;
-//
-//	void method() {
-//		System.out.println("Child Method");
-//	}
-//}
+//class Child extends Parent { }

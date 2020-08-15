@@ -1,4 +1,4 @@
-package com.minho.method02;
+package com.minho.method02_05.polymorphism;
 
 class BindingTest3{
 	public static void main(String[] args) {

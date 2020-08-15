@@ -1,4 +1,4 @@
-package com.minho.method02;
+package com.minho.method02_03.package_import;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -9,7 +9,7 @@ class ImportTest
 	{
 		 Date today = new Date();
 		 
-		 SimpleDateFormat date = new SimpleDateFormat("yyyy/MM/dd");
+		 SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
 		 SimpleDateFormat time = new SimpleDateFormat("hh:mm:ss a");
 
 		 System.out.println("오늘 날짜는 " + date.format(today));

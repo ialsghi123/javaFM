@@ -1,13 +1,15 @@
-package com.minho.method02;
+package com.minho.method02_04.modifier;
 
 final class Singleton {
 	private static Singleton s = new Singleton();
+	
 	
 	private Singleton() {
 		//...
 	}
 
 	public static Singleton getInstance() {
+		
 		if(s==null) {
 			s = new Singleton();
 		}
@@ -20,6 +22,7 @@ final class Singleton {
 class SingletonTest {
 	public static void main(String args[]) {
 //		Singleton s = new Singleton();
+		
 		Singleton s = Singleton.getInstance();
 	}
 }

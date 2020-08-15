@@ -1,4 +1,4 @@
-package com.minho.method02;
+package com.minho.method02_04.modifier;
 
 public class TimeTest { 
     public static void main(String[] args) 

@@ -1,6 +1,7 @@
-package com.minho.method02;
+package com.minho.method02_05.polymorphism;
 
-import java.util.*;			// Vector클래스를 사용하기 위해서 추가해 주었다.
+// Vector클래스를 사용하기 위해서 추가해 주었다.
+import java.util.Vector;
 
 class Product {
 	int price;			// 제품의 가격

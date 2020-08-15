@@ -1,4 +1,4 @@
-package com.minho.method02;
+package com.minho.method02_03.package_import;
 
 import static java.lang.System.out;
 import static java.lang.Math.*;
