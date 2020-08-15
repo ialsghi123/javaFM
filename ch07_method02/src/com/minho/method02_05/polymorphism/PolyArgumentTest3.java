@@ -79,7 +79,7 @@ class Buyer {			// 고객, 물건을 사는 사람
 	}
 }
 
-class PolyArgumentTest3 {
+class PolyArgumentTest3 { 
 	public static void main(String args[]) {
 		Buyer b = new Buyer();
 		Tv tv = new Tv();
