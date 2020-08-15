@@ -89,7 +89,7 @@ class PolyArgumentTest3 {
 		b.buy(tv);
 		b.buy(com);
 		b.buy(audio); 
-		b.summary();
+		b.summary(); 
 		System.out.println();
 		b.refund(com);
 		b.summary();
