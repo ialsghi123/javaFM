@@ -9,7 +9,7 @@ package com.minho.practice06_method;
  *  라인d의 메소드는 클래스 메소드에서 인스턴스 메소드를 호출 할 수 없다 
  */
 
-public class Method18 {
+public class Method18_O {
 
 	public static void main(String[] args) {
 

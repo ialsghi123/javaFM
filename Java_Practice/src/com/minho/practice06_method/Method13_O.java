@@ -7,7 +7,7 @@ package com.minho.practice06_method;
  */
 
 
-public class Method13 {
+public class Method13_O {
 
 	public static void main(String[] args) {
 		/*

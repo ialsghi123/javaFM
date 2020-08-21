@@ -6,7 +6,7 @@ package com.minho.practice06_method;
  */
 
 
-public class Method11 {
+public class Method11_O {
 
 	public static void main(String[] args) {
 		/*

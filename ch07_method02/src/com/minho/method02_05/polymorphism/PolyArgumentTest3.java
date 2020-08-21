@@ -36,7 +36,7 @@ class Audio extends Product {
 class Buyer {			// 고객, 물건을 사는 사람
 	int money = 1000;  	// 소유금액
 	int bonusPoint = 0;	// 보너스점수
-	Vector item = new Vector();	// 구입한 제품을 저장하는데 사용될 Vector객체
+	Vector item = new Vector();	// 구입한 제품을 저장하는데 사용될 Vector객체 
 
 	void buy(Product p) {
 		if(money < p.price) {
@@ -55,7 +55,7 @@ class Buyer {			// 고객, 물건을 사는 사람
 			bonusPoint -= p.bonusPoint;
 			System.out.println(p + "을/를 반품하셨습니다.");
 		} else {			//  제거에 실패한 경우
-			System.out.println("구입하신 제품 중 해당 제품이 없습니다.");		
+			System.out.println("구입하신 제품 중 해당 제품이 없습니다.");	 	
 		}
 	}
 

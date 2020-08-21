@@ -27,7 +27,7 @@ package com.minho.method02_05.polymorphism;
 //		super(200);
 //	}
 //
-//	public String toString() {
+//	public String toString() { 
 //		return "Computer";
 //	}
 //}

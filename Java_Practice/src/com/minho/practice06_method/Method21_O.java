@@ -66,7 +66,7 @@ class MyTv {
 	}
 }
 
-public class Method21 {
+public class Method21_O {
 
 	public static void main(String[] args) {
 		MyTv t = new MyTv();
