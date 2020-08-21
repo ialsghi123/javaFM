@@ -75,7 +75,7 @@ class Buyer {			// 고객, 물건을 사는 사람
 			itemList += (i==0) ? "" + p : ", " + p;
 		}
 		System.out.println("구입하신 물품의 총금액은 " + sum + "만원입니다.");
-		System.out.println("구입하신 제품은 " + itemList + "입니다.");
+		System.out.println("구입하신 제품은 " + itemList + "입니다."); 
 	}
 }
 
