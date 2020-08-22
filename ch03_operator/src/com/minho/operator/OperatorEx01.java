@@ -9,5 +9,6 @@ class OperatorEx01 {
 		i = 5; // 결과를 비교하기 위해 i값을 다시 5로 변경.
 		++i;
 		System.out.println(i);
+		
 	}
 }
