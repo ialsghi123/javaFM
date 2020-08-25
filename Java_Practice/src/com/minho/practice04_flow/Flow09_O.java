@@ -11,14 +11,14 @@ package com.minho.practice04_flow;
  * 
  */
 
-public class Flow09 {
+public class Flow09_O {
 
 	public static void main(String[] args) {
 		String str = "12345";
 		int sum = 0;
 		
 		for (int i = 0; i < str.length(); i++) {
-			sum+=str.charAt(i)-48;
+			sum+=str.charAt(i)-'0';
 			
 		}
 		System.out.println("sum=" + sum);

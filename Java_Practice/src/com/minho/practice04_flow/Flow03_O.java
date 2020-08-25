@@ -2,7 +2,7 @@ package com.minho.practice04_flow;
 
 
 
-public class Flow03 {
+public class Flow03_O {
 
 	public static void main(String[] args) {
 		/*
@@ -13,7 +13,7 @@ public class Flow03 {
 		
 		int sum=0;
 		
-		for(int i=1; i<10; i++) {
+		for(int i=1; i<=10; i++) {
 			for(int j=1; j<=i; j++) {
 				sum+=j;
 			}

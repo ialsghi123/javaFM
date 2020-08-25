@@ -6,7 +6,7 @@ package com.minho.practice04_flow;
 코드를 완성하라. (1)에 알맞은 코드를 넣으시오.
  */
 
-public class Flow07 {
+public class Flow07_O {
 
 	public static void main(String[] args) {
 		int value = (int)(Math.random()*6)+1;

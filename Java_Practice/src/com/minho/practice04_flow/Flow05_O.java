@@ -5,7 +5,7 @@ package com.minho.practice04_flow;
  * [4-5] 다음의 for문을 while문으로 변경하시오.
  */
 
-public class Flow05 {
+public class Flow05_O {
 
 	public static void main(String[] args) {
 //		for (int i = 0; i <= 10; i++) {

@@ -11,7 +11,7 @@ x=3, y=1
 x=5, y=0
  */
 
-public class Flow08 {
+public class Flow08_O {
 
 	public static void main(String[] args) {
 		for(int i=0; i<=10; i++) {

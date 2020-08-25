@@ -6,7 +6,7 @@ package com.minho.practice04_flow;
  * 
  */
 
-public class Flow06 {
+public class Flow06_O {
 
 	public static void main(String[] args) {
 		for(int i=1; i<=6; i++) {

@@ -2,7 +2,7 @@ package com.minho.practice04_flow;
 
 
 
-public class Flow02 {
+public class Flow02_O {
 
 	public static void main(String[] args) {
 		/*
