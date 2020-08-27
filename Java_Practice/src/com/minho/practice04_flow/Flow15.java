@@ -15,10 +15,12 @@ public class Flow15 {
 
 	public static void main(String[] args) {
 		int number = 12321;
+		
 		int tmp = number;
 		int result = 0; // 변수 number를 거꾸로 변환해서 담을 변수
 		while (tmp != 0) {
-			result+=tmp%10*10;
+			
+			result=result+(char)(tmp%10);
 			tmp/=10;
 		}
 		if (number == result)

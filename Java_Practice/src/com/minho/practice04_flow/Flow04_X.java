@@ -12,10 +12,12 @@ public class Flow04_X {
 		 * 
 		 */
 		int sum=0;
+		int s=-1;
 		
-		for(int i=1; true; i++) {
+		for(int i=1; true; i++,--s) {
 			
 			sum+=i;
+			i=i*s;
 			
 		}
 		

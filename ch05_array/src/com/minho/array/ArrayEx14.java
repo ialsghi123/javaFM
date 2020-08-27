@@ -8,6 +8,7 @@ public class ArrayEx14 {
 		
 		char ch;
 		
+		
 		for(int i=0; i<str.length(); i++) {
 			ch=str.charAt(i);
 			System.out.println("str.charAt("+i+"):"+ch);

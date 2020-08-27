@@ -21,7 +21,10 @@ public class Flow12 {
 
 	public static void main(String[] args) {
 		for(int i=1; i<=9; i++) {
-			for(int j=i; j<=i; j++) {
+			
+			int x=i%3;
+			
+			for(int j=i+1; j<=i; j++) {
 				System.out.printf("%d*%d=%d");
 			}
 		}
