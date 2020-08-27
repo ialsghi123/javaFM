@@ -23,7 +23,7 @@ public class MyMathTest2 {
 		System.out.println(MyMath2.add(200L, 100L));
 		System.out.println(MyMath2.subtract(200L, 100L));
 		System.out.println(MyMath2.multiply(200L, 100L));
-		System.out.println(MyMath2.divide(200.0, 100.0));
+		System.out.println(MyMath2.divide(200.0, 100.0)); 
 		System.out.println();
 		
 		MyMath2 mm = new MyMath2(); // 인스턴스를 생성
