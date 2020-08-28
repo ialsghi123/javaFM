@@ -8,30 +8,32 @@ package com.minho.practice06_oop_01;
  * 
  * 
 [실행결과]
-3
-1K
+31
+K
  */
 
 
-public class Method02 {
+public class Method02_X {
 
 	public static void main(String[] args) {
-//		SutdaCard card1 = new SutdaCard(3, false);
-//		SutdaCard card2 = new SutdaCard();
-//		System.out.println(card1.info());
-//		System.out.println(card2.info());
+		SutdaCard card = new SutdaCard();
+
 
 	}
 
 }
 
 class SutdaCard {
-//	int num;
-//	boolean isKwang;
-//	
+	int num;
+	boolean isKwang;
+	
 //	SutdaCard() {
-//		this()
+//		this(31,"광");
 //	}
-
+//	
+//	SutdaCard(int num,boolean isKwang) {
+//		
+//	}
+//	
 	
 }

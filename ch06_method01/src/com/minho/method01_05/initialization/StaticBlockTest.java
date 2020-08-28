@@ -1,4 +1,4 @@
-package com.minho.method01;
+package com.minho.method01_05.initialization;
 
 public class StaticBlockTest {
 	static int[] arr = new int[10];

@@ -1,4 +1,4 @@
-package com.minho.method01;
+package com.minho.method01_02.variable_method;
 
 class MemberCall {
 	int iv = 10;

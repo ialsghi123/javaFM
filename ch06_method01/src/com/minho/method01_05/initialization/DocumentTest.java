@@ -1,4 +1,4 @@
-package com.minho.method01;
+package com.minho.method01_05.initialization;
 
 class Document {
 	static int count = 0;

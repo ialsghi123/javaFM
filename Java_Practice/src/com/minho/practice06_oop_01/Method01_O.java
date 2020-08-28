@@ -15,20 +15,15 @@ boolean isKwang 광(光)이면 true, 아니면 false
 public class Method01_O {
 
 	public static void main(String[] args) {
-//		SutdaCard c = new SutdaCard();
-//		if(c.isKwang) {
-//			System.out.println("광");
-//		} else {
-//			System.out.println("false");
-//		}
+
 
 	}
 
 }
 
 //class SutdaCard {
+//	
 //	int num;
 //	boolean isKwang;
-//	
 //	
 //}

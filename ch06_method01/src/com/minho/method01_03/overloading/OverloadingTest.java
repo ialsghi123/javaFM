@@ -1,4 +1,4 @@
-package com.minho.method01;
+package com.minho.method01_03.overloading;
 
 class OverloadingTest {
 	public static void main(String args[]) {

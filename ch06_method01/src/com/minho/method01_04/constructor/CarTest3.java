@@ -1,4 +1,4 @@
-package com.minho.method01;
+package com.minho.method01_04.constructor;
 
 class Car {
 	String color;		// 색상
@@ -21,6 +21,8 @@ class Car {
 		this.door     = door;
 	}
 }
+
+
 class CarTest3 { 
 	public static void main(String[] args) {
 		Car c1 = new Car();

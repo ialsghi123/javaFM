@@ -49,9 +49,8 @@ public class Method04_O {
 //	float average;
 //	
 //	int getTotal() {
-//		sum=kor+eng+math;
 //		
-//		return sum;
+//		return kor+eng+math;
 //	}
 //	
 //	float getAverage() {

@@ -47,6 +47,5 @@ class Student {
 		return name+","+ban+","+no+","+kor+","+eng+","+math;
 	}
 	
-
 	
 }
