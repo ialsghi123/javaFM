@@ -12,7 +12,7 @@ class Card {
 	}
 
 	Card() {
-		this("HEART", 1);
+		this("HEART", 1); 
 	}
 
 	public String toString() {
