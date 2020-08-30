@@ -8,7 +8,7 @@ package com.minho.method02_01.inheritance;
 //	void channelUp()    { 	 ++channel;     }
 //	void channelDown()  {	 --channel;	    }
 //}
-
+//
 //class CaptionTv extends Tv {
 //	boolean caption;		// 캡션상태(on/off)
 //	void displayCaption(String text) {
@@ -17,9 +17,9 @@ package com.minho.method02_01.inheritance;
 //		}
 //	}
 //}
-
-class CaptionTvTest {
-	public static void main(String args[]) {
+//
+//class CaptionTvTest {
+//	public static void main(String args[]) {
 //		CaptionTv ctv = new CaptionTv();
 //		ctv.channel = 10;				// 조상 클래스로부터 상속받은 멤버
 //		ctv.channelUp();				// 조상 클래스로부터 상속받은 멤버
@@ -27,6 +27,6 @@ class CaptionTvTest {
 //		ctv.displayCaption("Hello, World");	
 //		ctv.caption = true;				    // 캡션기능을 켠다.
 //		ctv.displayCaption("Hello, World");	// 캡션을 화면에 보여 준다.
-	}
-}
+//	}
+//}
 

@@ -2,7 +2,7 @@ package com.minho.array;
 
 import java.util.Scanner;
 
-public class MultiArrEx1_X {
+public class MultiArrEx1 {
 
 	public static void main(String[] args) {
 

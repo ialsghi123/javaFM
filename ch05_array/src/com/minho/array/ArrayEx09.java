@@ -2,7 +2,7 @@ package com.minho.array;
 
 import java.util.Arrays;
 
-public class ArrayEx09_X {
+public class ArrayEx09 {
 
 	public static void main(String[] args) {
 		

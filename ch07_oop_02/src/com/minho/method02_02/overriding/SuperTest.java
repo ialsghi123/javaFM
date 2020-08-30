@@ -6,7 +6,7 @@ class SuperTest {
 		c.method();
 	}
 }
-//
+
 //class Parent {
 //	int x = 10;
 //}

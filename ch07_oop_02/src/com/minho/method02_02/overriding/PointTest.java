@@ -1,16 +1,18 @@
 package com.minho.method02_02.overriding;
 
-class PointTest {
-	public static void main(String args[]) {
-		Point3D p3 = new Point3D(1,2,3);
-	}
-}
-
+//class PointTest {
+//	public static void main(String args[]) {
+//		Point3D p3 = new Point3D(1,2,3);
+//	}
+//}
+//
 //class Point {
 //	int x;	
 //	int y;
 //
-//	
+//	Point() {
+//		
+//	}
 //	
 //	Point(int x, int y) {
 //		this.x = x;

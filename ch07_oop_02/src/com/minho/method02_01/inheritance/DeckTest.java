@@ -22,9 +22,11 @@ class Deck {
 		int i = 0;
 
 		for (int k = Card.KIND_MAX; k > 0; k--)
-			for (int n = 0; n < Card.NUM_MAX; n++)
+			for (int n = 0; n < Card.NUM_MAX; n++) {
 				
 				cardArr[i++] = new Card(k, n + 1);
+			}
+				
 				
 				
 	}
