@@ -58,7 +58,6 @@ package com.minho.method02_05.polymorphism;
 //		money -= p.price; // 가진 돈에서 구입한 제품의 가격을 뺀다.
 //		bonusPoint += p.bonusPoint; // 제품의 보너스 점수를 추가한다.
 //		item[i++] = p; // 제품을 Product[] item에 저장한다.
-////		System.out.println(p);
 //		System.out.println(p + "을/를 구입하셨습니다.");
 //	}
 //
@@ -68,6 +67,7 @@ package com.minho.method02_05.polymorphism;
 //
 //		// 반복문을 이용해서 구입한 물품의 총 가격과 목록을 만든다.
 //		for(int i=0; i<item.length;i++) {
+//
 //			if(item[i]==null) break;
 //			sum += item[i].price;
 //			itemList += (i==0) ? "" + item[i] : ", " + item[i];
@@ -76,14 +76,14 @@ package com.minho.method02_05.polymorphism;
 //		System.out.println("구입하신 제품은 " + itemList + "입니다.");
 //	}
 //}
-
-class PolyArgumentTest2 {
-	public static void main(String args[]) {
+//
+//class PolyArgumentTest2 {
+//	public static void main(String args[]) {
 //		Buyer b = new Buyer();
 //
 //		b.buy(new Tv());
 //		b.buy(new Computer());
 //		b.buy(new Audio());
 //		b.summary();
-	}
-}
+//	}
+//}

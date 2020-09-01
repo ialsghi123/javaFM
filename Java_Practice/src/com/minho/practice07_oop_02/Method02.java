@@ -28,27 +28,27 @@ package com.minho.practice07_oop_02;
 2
  */
 
-class SutdaDeck {
-	final int CARD_NUM = 20;
-	SutdaCard[] cards = new SutdaCard[CARD_NUM];
-
-	SutdaDeck() {
-		/*
-		 * 문제 7-1의 답이므로 내용생략
-		 */
-		for(int i=0; i<cards.length; i++) {
-			int num=i%10+1;
-			boolean isKwang=(i<10) && (i==1 || i==3 || i==8);
-			
-			cards[i]=new SutdaCard(num,isKwang);
-			
-		}
-		
-	}
-	/*
-	 * (1) 위에 정의된 세 개의 메서드를 작성하시오.
-	 */
-	
+//class SutdaDeck {
+//	final int CARD_NUM = 20;
+//	SutdaCard[] cards = new SutdaCard[CARD_NUM];
+//
+//	SutdaDeck() {
+//		/*
+//		 * 문제 7-1의 답이므로 내용생략
+//		 */
+//		for(int i=0; i<cards.length; i++) {
+//			int num=i%10+1;
+//			boolean isKwang=(i<10) && (i==1 || i==3 || i==8);
+//			
+//			cards[i]=new SutdaCard(num,isKwang);
+//			
+//		}
+//		
+//	}
+//	/*
+//	 * (1) 위에 정의된 세 개의 메서드를 작성하시오.
+//	 */
+//	
 //	void shuffle() {
 //		for(int i=0; i<cards.length; i++) {
 //			cards[i] = (int)(Math.random());
@@ -63,8 +63,8 @@ class SutdaDeck {
 //		
 //	}
 //	
-} // SutdaDeck
-
+//} // SutdaDeck
+//
 //class SutdaCard {
 //	int num;
 //	boolean isKwang;
@@ -83,10 +83,10 @@ class SutdaDeck {
 //		return num + (isKwang ? "K" : "");
 //	}
 //}
-
-public class Method02 {
-
-	public static void main(String[] args) {
+//
+//public class Method02 {
+//
+//	public static void main(String[] args) {
 //		SutdaDeck deck = new SutdaDeck();
 //		System.out.println(deck.pick(0));
 //		System.out.println(deck.pick());
@@ -95,7 +95,7 @@ public class Method02 {
 //			System.out.print(deck.cards[i] + ",");
 //		System.out.println();
 //		System.out.println(deck.pick(0));
-
-	}
-
-}
+//
+//	}
+//
+//}

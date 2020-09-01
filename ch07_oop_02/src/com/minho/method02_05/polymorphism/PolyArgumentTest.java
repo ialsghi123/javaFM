@@ -49,9 +49,9 @@ package com.minho.method02_05.polymorphism;
 //		System.out.println(p + "을/를 구입하셨습니다.");
 //	}
 //}
-
-class PolyArgumentTest {
-	public static void main(String args[]) {
+//
+//class PolyArgumentTest {
+//	public static void main(String args[]) {
 //		Buyer b = new Buyer();
 //
 //		b.buy(new Tv());
@@ -59,6 +59,6 @@ class PolyArgumentTest {
 //
 //		System.out.println("현재 남은 돈은 " + b.money + "만원입니다.");
 //		System.out.println("현재 보너스점수는 " + b.bonusPoint + "점입니다.");
-	}
-}
+//	}
+//}
 

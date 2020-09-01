@@ -19,10 +19,18 @@ package com.minho.practice07_oop_02;
 //	
 //	SutdaDeck() {
 //		
-//		for(int i=0; i<cards.length; i++) {
-//			
+//		/*
+//		(1) 배열 SutdaCard를 적절히 초기화 하시오.
+//		*/
+//		
+//		int k=0;
+//		
+//		for(int i=0; i<2; i++) {
+//			for(int j=0; j<cards.length; j++ ) {
+//				
+////				cards[k++] = new SutdaCard(i+1,j);
+//			}
 //		}
-//	
 //	}
 //}
 //
@@ -47,7 +55,7 @@ package com.minho.practice07_oop_02;
 //
 //public class Method01 {
 //	public static void main(String args[]) {
-//		SutdaDeck deck = new SutdaDeck(); //SutdaDeck 클래스의 인스턴스를 참조하는 deck 참조변수 생성
+//		SutdaDeck deck = new SutdaDeck(); 
 //		for (int i = 0; i < deck.cards.length; i++)
 //			System.out.print(deck.cards[i] + ",");
 //	}

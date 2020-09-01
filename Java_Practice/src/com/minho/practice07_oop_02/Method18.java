@@ -25,10 +25,17 @@ public class Method18 {
 	*/
 	
 	static void action(Robot r) {
+		
 		if(r instanceof DanceRobot) {
-			
+			System.out.println("춤을 춥니다");
+		} else if (r instanceof SingRobot) {
+			System.out.println("노래를 합니다.");
+		} else if(r instanceof DrawRobot) {
+			System.out.println("그림을 그립니다.");
 		}
+		
 	}
+
 	
 	public static void main(String[] args) {
 		Robot[] arr = { new DanceRobot(), new SingRobot(), new DrawRobot() };

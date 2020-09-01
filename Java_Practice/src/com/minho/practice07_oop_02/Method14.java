@@ -22,7 +22,7 @@ class SutdaCard {
 		this.isKwang = isKwang;
 	}
 
-	public String toString() {
+	public final String toString() {
 		return num + (isKwang ? "K" : "");
 	}
 }

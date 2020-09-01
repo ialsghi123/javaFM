@@ -9,7 +9,7 @@ public class Method15 {
 		/*
 		 * 
 		[7-15] 클래스가 다음과 같이 정의되어 있을 때, 형변환을 올바르게 하지 않은 것은?
-		(모두 고르시오.)
+		(모두 고르시오.) c
 		
 		class Unit {}
 		class AirUnit extends Unit {}

@@ -1,7 +1,7 @@
 package com.minho.method02_07.interface1;
 
-class FighterTest {
-	public static void main(String[] args) {
+//class FighterTest {
+//	public static void main(String[] args) {
 //		Fighter f = new Fighter();
 //
 //		if (f instanceof Unit)	{		
@@ -19,9 +19,9 @@ class FighterTest {
 //		if (f instanceof Object) {		
 //			System.out.println("f는 Object클래스의 자손입니다.");
 //		}
-	}
-}
-
+//	}
+//}
+//
 //class Fighter extends Unit implements Fightable {
 //	public void move(int x, int y) { /* 내용 생략 */ }
 //	public void attack(Unit u) { /* 내용 생략 */ }

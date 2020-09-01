@@ -16,7 +16,7 @@ public class Method16 {
 		b. fe instanceof Movable
 		c. fe instanceof Object
 		d. fe instanceof Car
-		e. fe instanceof Ambulance
+		e. fe instanceof Ambulance 
 		 * 
 		 * 
 		 */
