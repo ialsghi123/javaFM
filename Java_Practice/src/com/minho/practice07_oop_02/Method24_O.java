@@ -2,7 +2,7 @@ package com.minho.practice07_oop_02;
 
 
 
-public class Method24 {
+public class Method24_O {
 
 	public static void main(String[] args) {
 		/*

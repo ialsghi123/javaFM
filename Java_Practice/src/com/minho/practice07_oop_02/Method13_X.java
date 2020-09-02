@@ -3,7 +3,7 @@ package com.minho.practice07_oop_02;
 
 
 
-public class Method13 {
+public class Method13_X {
 
 	public static void main(String[] args) {
 		/*

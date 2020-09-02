@@ -3,7 +3,7 @@ package com.minho.practice07_oop_02;
 
 
 
-public class Method09 {
+public class Method09_O {
 
 	public static void main(String[] args) {
 		/*
@@ -12,7 +12,7 @@ public class Method09 {
 		옳지 않은 것은? (모두 고르시오)
 		a. 지역변수 - 값을 변경할 수 없다. 
 		b. 클래스 - 상속을 통해 클래스에 새로운 멤버를 추가할 수 없다.
-		c. 메서드 - 오버로딩을 할 수 없다. x
+		c. 메서드 - 오버로딩을 할 수 없다. x => 오버라이딩을 할 수 없다
 		d. 멤버변수 - 값을 변경할 수 없다.
 		 * 
 		 */

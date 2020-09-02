@@ -22,7 +22,7 @@ package com.minho.practice07_oop_02;
 //class Tv extends Product {
 //	
 //	Tv() {
-//		super(100);
+//		
 //	}
 //
 //	public String toString() {

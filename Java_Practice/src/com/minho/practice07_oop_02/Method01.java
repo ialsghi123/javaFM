@@ -14,23 +14,16 @@ package com.minho.practice07_oop_02;
 
 //class SutdaDeck {
 //	final int CARD_NUM = 20;
-//	SutdaCard[] cards = new SutdaCard[CARD_NUM]; //SutdaCard는 SutdaDeck의 포함관계에 속한다
+//	SutdaCard[] cards = new SutdaCard[CARD_NUM]; 
 //
 //	
 //	SutdaDeck() {
 //		
-//		/*
-//		(1) 배열 SutdaCard를 적절히 초기화 하시오.
-//		*/
-//		
-//		int k=0;
-//		
-//		for(int i=0; i<2; i++) {
-//			for(int j=0; j<cards.length; j++ ) {
-//				
-////				cards[k++] = new SutdaCard(i+1,j);
+//		for(int i=0;i < cards.length;i++) {
+//			int num = i%10+1;
+//			boolean isKwang = (i < 10)&&(num==1||num==3||num==8);
+//			cards[i] = new SutdaCard(num,isKwang);
 //			}
-//		}
 //	}
 //}
 //
