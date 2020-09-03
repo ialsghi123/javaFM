@@ -24,11 +24,11 @@ public class Array10 {
 		for (int i = 0; i < src.length(); i++) {
 			char ch = src.charAt(i);
 			
-			if('0'<=ch && ch<='9') {
-//				result=numCode[ch-'0'];
-			} else if('a'<=ch && ch<='z') {
-//				result=
-			}
+//			if('a'<=ch && ch<='z') {
+//				result=abcCode[i];
+//			} else if('0'<=ch && ch<='9') {
+////				result=
+//			}
 			
 
 		}

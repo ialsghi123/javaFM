@@ -11,7 +11,7 @@ package com.minho.practice04_flow;
 12321는 회문수 입니다. 
  */
 
-public class Flow15 {
+public class Flow15_XX {
 
 	public static void main(String[] args) {
 		int number = 12321;
@@ -20,9 +20,14 @@ public class Flow15 {
 		int result = 0; // 변수 number를 거꾸로 변환해서 담을 변수
 		while (tmp != 0) {
 			
-			result=result+(char)(tmp%10);
-			tmp/=10;
+			String x = "";
+			
+			result+=tmp%10;
+			System.out.print(result+"");
+			tmp=tmp/10;
+			
 		}
+		System.out.println();
 		if (number == result)
 			System.out.println(number + "는 회문수 입니다.");
 		else

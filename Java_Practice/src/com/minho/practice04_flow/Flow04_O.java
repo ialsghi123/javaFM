@@ -2,7 +2,7 @@ package com.minho.practice04_flow;
 
 
 
-public class Flow04_X {
+public class Flow04_O {
 
 	public static void main(String[] args) {
 		/*
@@ -11,15 +11,24 @@ public class Flow04_X {
 		 * 
 		 * 
 		 */
+
 		int sum=0;
-		int s=-1;
+		int s=1;
+		int count=0;
 		
-		for(int i=1; true; i++,--s) {
+		for(int i=1; true; i++,s=-s) {
 			
-			sum+=i;
-			i=i*s;
+			int num=i*s;
+			sum+=num;
+			count++;
+			
+			if(sum>=100) {
+				System.out.println(count);
+				break;
+			}
 			
 		}
+		
 		
 	}
 

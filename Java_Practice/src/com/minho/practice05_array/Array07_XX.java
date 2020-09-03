@@ -25,7 +25,7 @@ money=3170
 100원:0
 50원:2
 10원:3
-C:\jdk1.8\work\ch5>java Exercise5_7 3510
+
 money=3510
 500원: 5
 100원: 5
@@ -34,7 +34,7 @@ money=3510
 거스름돈이 부족합니다.
  */
 
-public class Array07_X {
+public class Array07_XX {
 
 	public static void main(String[] args) {
 
@@ -56,16 +56,20 @@ public class Array07_X {
 			 * 2. 배열 coin에서 coinNum만큼의 동전을 뺀다. (만일 충분한 동전이 없다면 배열 coin에 있는 만큼만 뺀다.) 3. 금액에서
 			 * 동전의 개수(coinNum)와 동전단위를 곱한 값을 뺀다.
 			 */
-			
+
 			coinNum=money/coinUnit[i];
-			money=money%coinUnit[i];
-			coin[i]=coin[i]-coinNum;
-			
+
 			if(coinNum>coin[i]) {
 				coinNum=coin[i];
 			}
+					
+			money=money%coinUnit[i];
+			coin[i]=coin[i]-coinNum;
 			
-			money=money-coinNum*coin[i];
+			
+			
+			
+			
 			
 			System.out.println(coinUnit[i] + "원: " + coinNum);
 		}

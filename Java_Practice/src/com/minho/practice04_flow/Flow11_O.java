@@ -10,7 +10,7 @@ package com.minho.practice04_flow;
 1,1,2,3,5,8,13,21,34,55
  */
 
-public class Flow11 {
+public class Flow11_O {
 
 	public static void main(String[] args) {
 		// Fibonnaci 수열의 시작의 첫 두 숫자를 1, 1로 한다.
@@ -20,9 +20,12 @@ public class Flow11 {
 		System.out.print(num1+","+num2);
 		for (int i = 0 ; i < 8 ; i++ ) {
 		
-			num3=num1+num2;
+			num3=num2+num1;
+			num1=num2;
 			num2=num3;
-			num1=0;
+			
+			System.out.print(","+num3);
+			
 		}
 	}
 
