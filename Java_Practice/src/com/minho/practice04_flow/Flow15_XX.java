@@ -20,10 +20,8 @@ public class Flow15_XX {
 		int result = 0; // 변수 number를 거꾸로 변환해서 담을 변수
 		while (tmp != 0) {
 			
-			String x = "";
 			
 			result+=tmp%10;
-			System.out.print(result+"");
 			tmp=tmp/10;
 			
 		}

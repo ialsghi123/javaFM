@@ -16,7 +16,7 @@ package com.minho.practice05_array;
 240 240 240 720
  */
 
-public class Array11 {
+public class Array11_XX {
 
 	public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package com.minho.practice08_exception_handling;
 
 
 
-public class Exception04 {
+public class Exception04_X {
 
 	public static void main(String[] args) {
 		/*

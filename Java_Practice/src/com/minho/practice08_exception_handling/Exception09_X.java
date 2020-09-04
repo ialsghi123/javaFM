@@ -32,7 +32,7 @@ Exception in thread "main" UnsupportedFuctionException: [100]지원하지 않는
 at Exercise8_9.main(Exercise8_9.java:5)
  */
 
-public class Exception09 {
+public class Exception09_X {
 
 	public static void main(String[] args) throws Exception {
 		

@@ -4,12 +4,17 @@ package com.minho.practice08_exception_handling;
  * [8-7] 아래의 코드가 수행되었을 때의 실행결과를 적으시오.
  * 
  * 
- * 
+ * 1
+ * 5
+ * 1
+ * 2
+ * 5
+ * 6
  * 
  * 
  */
 
-public class Exception07 {
+public class Exception07_X {
 	static void method(boolean b) {
 		try {
 			System.out.println(1);

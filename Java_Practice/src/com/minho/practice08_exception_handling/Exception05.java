@@ -7,11 +7,11 @@ package com.minho.practice08_exception_handling;
  * 1
  * 3
  * 5
- * 6
  * 1
  * 2
  * 5
  * 6
+ * 
  * 
  */
 

@@ -10,7 +10,7 @@ src:abc123
 result:`~!wer
  */
 
-public class Array10 {
+public class Array10_XX {
 
 	public static void main(String[] args) {
 

@@ -2,12 +2,12 @@ package com.minho.practice08_exception_handling;
 
 
 
-public class Exception03 {
+public class Exception03_X {
 
 	public static void main(String[] args) {
 		/*
 		 * 
-		 * [8-3] 다음 중 오버라이딩이 잘못된 것은? (모두 고르시오) d,e
+		 * [8-3] 다음 중 오버라이딩이 잘못된 것은? (모두 고르시오) b,c
 		void add(int a, int b)
 			throws InvalidNumberException, NotANumberException {}
 			

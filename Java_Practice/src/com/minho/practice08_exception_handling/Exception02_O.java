@@ -1,7 +1,7 @@
 package com.minho.practice08_exception_handling;
 
 
-public class Exception02 {
+public class Exception02_O {
 
 	public static void main(String[] args) {
 
