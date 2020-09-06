@@ -34,7 +34,7 @@ money=3510
 거스름돈이 부족합니다.
  */
 
-public class Array07_XX {
+public class Array07_O {
 
 	public static void main(String[] args) {
 
@@ -59,12 +59,16 @@ public class Array07_XX {
 
 			coinNum=money/coinUnit[i];
 
-			if(coinNum>coin[i]) {
-				coinNum=coin[i];
+			if(coinNum<=coin[i]) {
+				coin[i]=coin[i]-coinNum;
+			} else {
+				coinNum=coin[i];		
+				coin[i]=coin[i]-coinNum;
 			}
 					
-			money=money%coinUnit[i];
-			coin[i]=coin[i]-coinNum;
+			money=money-coinUnit[i]*coinNum;
+			
+			
 			
 			
 			

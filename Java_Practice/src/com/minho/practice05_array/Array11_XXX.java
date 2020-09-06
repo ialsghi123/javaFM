@@ -16,7 +16,7 @@ package com.minho.practice05_array;
 240 240 240 720
  */
 
-public class Array11_XX {
+public class Array11_XXX {
 
 	public static void main(String[] args) {
 
@@ -30,7 +30,10 @@ public class Array11_XX {
 		for (int i = 0; i < score.length; i++) { //score.length = 5
 			for (int j = 0; j < score[i].length; j++) { //score[i].length = 3 
 				
-				result[i][j]=score[i][j];
+				int x=0;
+				int y=0;
+				
+				result[x][y]=score[i][j];
 			}
 		}
 		for (int i = 0; i < result.length; i++) {

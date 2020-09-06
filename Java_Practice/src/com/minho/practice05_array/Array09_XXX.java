@@ -19,7 +19,7 @@ package com.minho.practice05_array;
  * 
  */
 
-public class Array09_XX {
+public class Array09_XXX {
 
 	public static void main(String[] args) {
 
@@ -40,7 +40,6 @@ public class Array09_XX {
 		for (int i = 0; i < star.length; i++) {
 			for (int j = 0; j < star[i].length; j++) {
 				
-//				result[i][j]=star[][];
 				
 			}
 		}

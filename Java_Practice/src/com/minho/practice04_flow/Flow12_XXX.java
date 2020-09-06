@@ -17,17 +17,23 @@ package com.minho.practice04_flow;
 8*3=24 9*3=27
  */
 
-public class Flow12_XX {
+public class Flow12_XXX {
 
 	public static void main(String[] args) {
 		for(int i=1; i<=9; i++) {
 			
-			
-			
 			for(int j=1; j<=3; j++) {
-				System.out.printf("%d*%d=%d ",j+1,i,(j+1)*i);
+				int x=j+1;
+				int y=i%3;
+				
+				if(i%3==0) {
+					y=3;
+				}
+				
+				System.out.printf("%d*%d=%d ",i,j,i*j);
 			}
 			System.out.println();
+			
 			
 			
 		}
