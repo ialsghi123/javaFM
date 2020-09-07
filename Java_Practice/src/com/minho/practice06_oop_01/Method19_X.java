@@ -6,11 +6,11 @@ package com.minho.practice06_oop_01;
  * 
  */
 
-public class Method19 {
+public class Method19_X {
 
 	public static void change(String str) {
 		str += "456";
-//		System.out.println(str);
+
 	}
 
 	public static void main(String[] args) {

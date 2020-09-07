@@ -6,7 +6,7 @@ package com.minho.practice07_oop_02;
  * 
  * 
  * 
- * x=100
+ * 
  * 
  */
 
@@ -27,18 +27,18 @@ package com.minho.practice07_oop_02;
 //}
 //
 //class Child extends Parent {
-//	int x = 3000; // => 1000
+//	int x = 3000; 
 //
 //	Child() {
-//		this(1000); // 1번
+//		this(1000); 
 //	}
 //
-//	Child(int x) { // 2번
+//	Child(int x) { 
 //		this.x = x;
 //	}
 //}
 //
-//public class Method07_X {
+//public class Method07_O {
 //
 //	public static void main(String[] args) {
 //

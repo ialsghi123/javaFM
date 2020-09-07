@@ -15,18 +15,22 @@ package com.minho.practice06_oop_01;
 [4, 6, 8, 3, 2, 9, 7, 1, 5]
  */
 
-public class Method20 {
+public class Method20_O {
 
 	/*
 	(1) shuffle메서드를 작성하시오.
 	*/
 	static int[] shuffle(int[] arr) {
 		
+		if(arr==null || arr.length==0) {
+			return arr;
+		}
+		
 		int tmp=0;
 		
-		for(int i=0; i<9; i++) {
+		for(int i=0; i<arr.length; i++) {
 			
-			int j=(int)(Math.random()*10);
+			int j=(int)(Math.random()*9);
 			
 			tmp=arr[j];
 			arr[j]=arr[i];

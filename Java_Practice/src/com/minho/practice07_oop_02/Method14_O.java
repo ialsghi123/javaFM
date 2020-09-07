@@ -10,24 +10,24 @@ package com.minho.practice07_oop_02;
  */
 
 //class SutdaCard {
-//	final int num;
-//	final boolean isKwang;
+//	final int NUM;
+//	final boolean IS_KWANG;
 //
 //	SutdaCard() {
 //		this(1, true);
 //	}
 //
 //	SutdaCard(int num, boolean isKwang) {
-//		this.num = num;
-//		this.isKwang = isKwang;
+//		this.NUM = num;
+//		this.IS_KWANG = isKwang;
 //	}
 //
 //	public final String toString() {
-//		return num + (isKwang ? "K" : "");
+//		return NUM + (IS_KWANG ? "K" : "");
 //	}
 //}
 //
-//public class Method14_X {
+//public class Method14_O {
 //
 //	public static void main(String[] args) {
 //		SutdaCard card = new SutdaCard(1, true);

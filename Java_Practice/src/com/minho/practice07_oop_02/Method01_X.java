@@ -18,12 +18,9 @@ package com.minho.practice07_oop_02;
 //
 //	
 //	SutdaDeck() {
-//		
-//		for(int i=0;i < cards.length;i++) {
-//			int num = i%10+1;
-//			boolean isKwang = (i < 10)&&(num==1||num==3||num==8);
-//			cards[i] = new SutdaCard(num,isKwang);
-//			}
+//				
+//	
+//	
 //	}
 //}
 //

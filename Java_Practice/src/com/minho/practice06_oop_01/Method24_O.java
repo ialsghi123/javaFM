@@ -10,7 +10,7 @@ package com.minho.practice06_oop_01;
  * 
  */
 
-public class Method24 {
+public class Method24_O {
 
 	/*
 	 * (1) abs메서드를 작성하시오.

@@ -27,25 +27,18 @@ VOL:20
 //	 * (1) 알맞은 코드를 넣어 완성하시오.
 //	 */
 //	
+//	public int setChannel(int channel) {
+//		return channel; 
+//	}
+//	
 //	public int getChannel() {
-//		return channel;
+//		
 //	}
-//	
-//	public int getVolume() {
-//		return volume;
-//	}
-//	
-//	public void setChannel(int channel) {
-//		this.channel = channel;
-//	}
-//	
-//	public void setVolume(int volume) {
-//		this.volume = volume;
-//	}
+//
 //	
 //}
 //
-//public class Method10 {
+//public class Method10_X {
 //
 //	public static void main(String[] args) {
 //		MyTv2 t = new MyTv2();

@@ -11,14 +11,14 @@ package com.minho.practice06_oop_01;
 class Marine {
 	int x = 0, y = 0; // Marine의 위치좌표(x,y)
 	int hp = 60; // 현재 체력
-	int weapon = 6; // 공격력
-	int armor = 0; // 방어력
+	static int weapon = 6; // 공격력
+	static int armor = 0; // 방어력
 
-	void weaponUp() {
+	static void weaponUp() {
 		weapon++;
 	}
 
-	void armorUp() {
+	static void armorUp() {
 		armor++;
 	}
 
@@ -28,5 +28,4 @@ class Marine {
 	}
 }
 
-//정답:공격력과 방어력에 static을 붙여야 한다 static을 붙이면 클래스 변수로서 인스턴스를 전부 공유하기 때문에 
-
+//  weapon,armor, weaponUp 메서드, armorUp 메서드 
