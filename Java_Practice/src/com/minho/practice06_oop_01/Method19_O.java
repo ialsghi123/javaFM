@@ -6,7 +6,7 @@ package com.minho.practice06_oop_01;
  * 
  */
 
-public class Method19_X {
+public class Method19_O {
 
 	public static void change(String str) {
 		str += "456";
