@@ -25,6 +25,10 @@ double height - 높이
 //class Circle extends Shape {
 //	double r;
 //	
+//	Circle() {
+//		
+//	}
+//	
 //	double calcArea(int x, int y) {
 //		return Math.PI*r*r;
 //	}
