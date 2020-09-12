@@ -20,6 +20,7 @@ CH:20
 //class MyTv2 {
 //	private boolean isPowerOn;
 //	private int channel;
+//	private int tmp;
 //	private int volume;
 //	final int MAX_VOLUME = 100;
 //	final int MIN_VOLUME = 0;
@@ -39,6 +40,7 @@ CH:20
 //
 //	public void setChannel(int channel) {
 //		this.channel = channel;
+//		
 //	}
 //
 //	public void setVolume(int volume) {
@@ -46,12 +48,13 @@ CH:20
 //	}
 //	
 //	void gotoPrevChannel() {
+//		this.tmp=channel;
 //		
 //	}
 //
 //}
 //
-//public class Method11 {
+//public class Method11_X {
 //
 //	public static void main(String[] args) {
 //		MyTv2 t = new MyTv2();

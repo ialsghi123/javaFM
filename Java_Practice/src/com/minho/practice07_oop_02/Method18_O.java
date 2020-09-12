@@ -18,7 +18,7 @@ DrawRobot인 경우, draw()를 호출한다.
 그림을 그립니다.
  */
 
-//public class Method18 {
+//public class Method18_O {
 //
 //	/*
 //	(1) action메서드를 작성하시오.
@@ -27,12 +27,15 @@ DrawRobot인 경우, draw()를 호출한다.
 //	static void action(Robot r) {
 //		
 //		if(r instanceof DanceRobot) {
-//			
+//			DanceRobot dr = (DanceRobot)r;
+//			dr.dance();
 //		} 
 //		else if (r instanceof SingRobot) {
-//			
+//			SingRobot sr = (SingRobot)r;
+//			sr.sing();
 //		} else if(r instanceof DrawRobot) {
-//			
+//			DrawRobot dr = (DrawRobot)r;
+//			dr.draw();
 //		}
 //		
 //	}

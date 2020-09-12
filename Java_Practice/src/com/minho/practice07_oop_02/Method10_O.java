@@ -27,18 +27,43 @@ VOL:20
 //	 * (1) 알맞은 코드를 넣어 완성하시오.
 //	 */
 //	
-//	public int setChannel(int channel) {
-//		return channel; 
+//	public int getChannel() {
+//		return channel;
 //	}
 //	
-//	public int getChannel() {
+//	public void setChannel(int channel) {
+//		
+//		if(channel >= MAX_CHANNEL) {
+//			return;
+//		}
+//		
+//		this.channel=channel;
+//		
 //		
 //	}
+//	
+//	public int getVolume() {
+//		return volume;
+//	}
+//	
+//	public void setVolume(int volume) {
+//		
+//		if(volume >= MAX_VOLUME) {
+//			return;
+//		}
+//		
+//		this.volume=volume;
+//		
+//		
+//	}
+//	
+//	
+//	
 //
 //	
 //}
 //
-//public class Method10_X {
+//public class Method10_O {
 //
 //	public static void main(String[] args) {
 //		MyTv2 t = new MyTv2();
