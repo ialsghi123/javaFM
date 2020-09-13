@@ -19,7 +19,9 @@ package com.minho.practice07_oop_02;
 //	
 //	SutdaDeck() {
 //				
-//	
+//		for(int i=0; cards.length; i++) {
+//			
+//		}
 //	
 //	}
 //}
@@ -43,7 +45,7 @@ package com.minho.practice07_oop_02;
 //	}
 //}
 //
-//public class Method01 {
+//public class Method01_X {
 //	public static void main(String args[]) {
 //		SutdaDeck deck = new SutdaDeck(); 
 //		for (int i = 0; i < deck.cards.length; i++)
