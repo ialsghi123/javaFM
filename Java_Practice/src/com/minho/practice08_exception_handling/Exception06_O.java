@@ -4,12 +4,12 @@ package com.minho.practice08_exception_handling;
  * [8-6] 아래의 코드가 수행되었을 때의 실행결과를 적으시오.
  * 
  * 3
- * 4
+ * 
  * 5
  * 
  */
 
-public class Exception06_X {
+public class Exception06_O {
 
 	public static void main(String[] args) {
 		try {

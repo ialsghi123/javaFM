@@ -14,7 +14,7 @@ package com.minho.practice08_exception_handling;
  * 
  */
 
-public class Exception07_X {
+public class Exception07_O {
 	static void method(boolean b) {
 		try {
 			System.out.println(1);

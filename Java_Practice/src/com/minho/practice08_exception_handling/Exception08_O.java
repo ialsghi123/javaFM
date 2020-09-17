@@ -32,7 +32,7 @@ at Exercise8_8.main(Exercise8_8.java:16)
 시도횟수는 5번입니다.
  */
 
-public class Exception08_X {
+public class Exception08_O {
 
 	public static void main(String[] args) {
 

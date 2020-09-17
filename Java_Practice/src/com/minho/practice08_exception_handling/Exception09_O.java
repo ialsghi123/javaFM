@@ -32,31 +32,36 @@ Exception in thread "main" UnsupportedFuctionException: [100]지원하지 않는
 at Exercise8_9.main(Exercise8_9.java:5)
  */
 
-public class Exception09_X {
+public class Exception09_O {
 
 	public static void main(String[] args) throws Exception {
-		
-//		throw new UnsupportedFuctionException("지원하지 않는 기능입니다.", 100);
+
+		throw new UnsupportedFuctionException("지원하지 않는 기능입니다.", 100);
 	}
 
 }
- 
+
 class UnsupportedFuctionException extends RuntimeException {
-	
-	final private int ERR_CODE=100;
-	
+
+	private final int ERR_CODE;
+
 	public int getErrorCode() {
 		return ERR_CODE;
 	}
-	
+
 	public String getMessage() {
-		return getMessage();
+		return "["+getErrorCode()+"]" + super.getMessage();
 	}
-	
-	UnsupportedFuctionException() {
-		
+
+	UnsupportedFuctionException(String msg, int err_Code) {
+		super(msg);
+		ERR_CODE = err_Code;
 	}
-	
+
+	UnsupportedFuctionException(String msg) { // 생성자
+		this(msg, 100); // ERR_CODE를 100(기본값)으로 초기화한다.
+	}
+
 //	UnsupportedFuctionException(String a,int b) {
 //		this.=a;
 //	}

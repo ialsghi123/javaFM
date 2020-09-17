@@ -2,12 +2,12 @@ package com.minho.practice08_exception_handling;
 
 
 
-public class Exception04_X {
+public class Exception04_O {
 
 	public static void main(String[] args) {
 		/*
 		 * 
-		 * [8-4] 다음과 같은 메서드가 있을 때, 예외를 잘못 처리한 것은? (모두 고르시오) b,d
+		 * [8-4] 다음과 같은 메서드가 있을 때, 예외를 잘못 처리한 것은? (모두 고르시오) c
 		 * 
 		void method() throws InvalidNumberException, NotANumberException {}
 		class NumberException extends RuntimeException {}
