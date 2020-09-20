@@ -17,7 +17,7 @@ class RandomEx04 {
 					+  " '" + getRandArr(CODE1) + "'"
 					+  ", '" + getRandArr(CODE2) + "'"
 					+  ", '" + getRandArr(CODE3) + "'"
-					+  ",  " + getRand(100, 200)	// 100~200 사이의 값을 얻는다.
+					+  ",  " + getRand(160, 180)	// 100~200 사이의 값을 얻는다.
 					+ "); ");
 		}
 	}
