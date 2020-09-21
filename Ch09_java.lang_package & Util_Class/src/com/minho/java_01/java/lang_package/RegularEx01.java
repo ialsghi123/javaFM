@@ -16,6 +16,11 @@ class RegularEx01 {
 			if(m.matches())
 				System.out.print(data[i] + ",");
 		}
+		
+		System.out.println();
+		
+
+		
 	}
 }
 
