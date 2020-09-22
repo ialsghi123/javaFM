@@ -24,6 +24,11 @@ String delCh - 제거할 문자들로 구성된 문자열
 //	
 //	static String delChar(String src,String delCh) {
 //		
+//		for(int i=0; i<src.length(); i++) {
+//			src.charAt(i);
+//			
+//		}
+//		
 //	}
 //	
 //	public static void main(String[] args) {

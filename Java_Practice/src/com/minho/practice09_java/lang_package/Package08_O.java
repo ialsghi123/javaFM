@@ -23,7 +23,7 @@ int n - 반올림한 결과의 소수점 자리
 3.1415
  */
 
-public class Package08 {
+public class Package08_O {
 	/*
 	(1) round메서드를 작성하시오.
 	*/

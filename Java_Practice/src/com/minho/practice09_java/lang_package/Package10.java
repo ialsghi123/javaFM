@@ -31,7 +31,25 @@ int alignment - 변환된 문자열의 정렬조건
 //		
 //		if(length<str.length()) {
 //			return str.substring(0,length);
-//		} else if()
+//		}
+//		
+//		char[] charArr = new char[length];
+//		
+//		for(int i=0; i<charArr.length; i++) {
+//			charArr[i]=' ';
+//		}
+//		
+//		if(alignment==0) {
+//			System.arraycopy(str, 0, charArr, 0, str.length());
+//		} else if(alignment==1) {
+//			System.arraycopy(str, 0, charArr, 5, str.length());
+//		} else if(alignment==-1) {
+//			System.arraycopy(str, 0, charArr, 7, str.length());
+//			
+//		}
+//		
+//		return new String(charArr);
+//		
 //		
 //	}
 //	

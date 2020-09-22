@@ -16,7 +16,7 @@ char ch - 그래프로 출력할 문자.
 ****4
  */
 
-public class Package04 {
+public class Package04_O {
 
 	static void printGraph(int[] dataArr, char ch) {
 		/*

@@ -12,7 +12,7 @@ c2=3K
 c1.equals(c2):true
  */
 
-//public class Package01 {
+//public class Package01_O {
 //
 //	public static void main(String[] args) {
 //		/*

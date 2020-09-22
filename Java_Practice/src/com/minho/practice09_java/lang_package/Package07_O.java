@@ -15,7 +15,7 @@ true
 false
  */
 
-public class Package07 {
+public class Package07_O {
 	
 	/*
 	(1) contains메서드를 작성하시오.
