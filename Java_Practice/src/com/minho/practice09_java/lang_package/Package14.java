@@ -52,9 +52,9 @@ public class Package14 {
 			 */
 			Pattern p = Pattern.compile(input);
 			for(int i=0; i<phoneNumArr.length; i++) {
-				Matcher m = p.matcher(phoneNumArr[i]);
+				Matcher m = p.matcher(phoneNumArr[i]); 
 				if(m.matches()) {
-					System.out.println(phoneNumArr[i]+",");
+					System.out.println(phoneNumArr[i]+","); 
 				}
 			}
 			

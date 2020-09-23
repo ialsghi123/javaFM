@@ -12,7 +12,7 @@ class  CalendarEx02 {
 
 		// month의 경우 0부터 시작하기 때문에 8월인 경우, 7로 지정해야한다.
 		// date1.set(2015, Calendar.AUGUST, 15);와 같이 할 수도 있다.
-		date1.set(2017, 2, 25); // 2015년 8월 15일로 날짜를 설정한다. 
+		date1.set(2020, 0, 1); // 2015년 8월 15일로 날짜를 설정한다. 
 		System.out.println("date1은 "+ toString(date1) + DAY_OF_WEEK[date1.get(Calendar.DAY_OF_WEEK)]+"요일이고,");
 		System.out.println("오늘(date2)은 " + toString(date2) + DAY_OF_WEEK[date2.get(Calendar.DAY_OF_WEEK)]+"요일입니다.");
 
