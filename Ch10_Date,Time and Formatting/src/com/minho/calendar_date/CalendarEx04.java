@@ -24,6 +24,8 @@ class  CalendarEx04 {
 		System.out.println("= 31일 후(add) =");
 		date.add(Calendar.DATE, 31);
 		System.out.println(toString(date));
+		
+
 	}
 
 	public static String toString(Calendar date) {
