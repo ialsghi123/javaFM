@@ -11,6 +11,8 @@ class CalendarEx08 {
 		  int month2 = Integer.parseInt(date2.substring(0,4))* 12 + Integer.parseInt(date2.substring(4));
 
 		  System.out.println(date1 +"과 " + date2 + "의 차이는 " + Math.abs(month1-month2) + "개월 입니다.");
+		 
+    
     } 
 } 
 
