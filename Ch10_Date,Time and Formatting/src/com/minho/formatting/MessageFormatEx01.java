@@ -13,5 +13,7 @@ class MessageFormatEx01 {
 
 		String result = MessageFormat.format(msg, arguments);
 		System.out.println(result);
+		
+
 	}
 }
