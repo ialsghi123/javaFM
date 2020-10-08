@@ -20,6 +20,8 @@ public class FlowEx02 {
 		if (input != 0)
 			System.out.println("입력하신 숫자는 0이 아닙니다.");
 		System.out.println("입력하신 숫자는 " + input + "입니다.");
+		
+	
 
 	}
 
