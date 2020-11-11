@@ -16,6 +16,10 @@
 <input type="submit" value="확인">
 </form>
 
+웹 컨테이너 정보 : <%=application.getServerInfo() %><br>
+서블릿 규약 버전 : <%=application.getMajorVersion() %>.
+<%=application.getMinorVersion() %>
+
 
 </body>
 </html>
