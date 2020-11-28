@@ -173,7 +173,7 @@
 	
 		
 	
-		<Context docBase="JSPPractice" path="/JSPPractice" reloadable="true" source="org.eclipse.jst.jee.server:JSPPractice"/><Context docBase="ServletPractice" path="/ServletPractice" reloadable="true" source="org.eclipse.jst.jee.server:ServletPractice"/></Host>
+		</Host>
     </Engine>
   </Service>
 </Server><!--<Context docBase="JSP17_ConnectionPool"
